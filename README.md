@@ -1,8 +1,13 @@
 # Andre Romero-Carey
 
-**Software Developer & Co-Founder ([Kestrel](https://meetkestrel.com) — pre-launch)** · St. Louis, MO · [LinkedIn](https://www.linkedin.com/in/andre-romerocarey)
+**Software Developer & Co-Founder ([Kestrel](https://meetkestrel.com) — pre-launch)** · St. Louis, MO · [Security & Verification Notes](https://kilianthemagnificent.github.io) · [LinkedIn](https://www.linkedin.com/in/andre-romerocarey)
 
 I build high-assurance verifiers, defensive input-validation tools, and deterministic human-in-the-loop workflow software—including co-building **Kestrel** ([meetkestrel.com](https://meetkestrel.com) · [security design](https://meetkestrel.com/security)), an unincorporated, pre-launch prototype for back-office workflow automation.
+
+### Research notes & upstream reports
+
+- **[Adversarial Soundness Testing for AI-Authored Lean 4 Proofs](https://kilianthemagnificent.github.io/notes/lean4-verifier-adversarial-suite.html)** — Architecture of the 5-layer Lean 4 verifier in `open-proofs`, its 48-case soundness-bypass test suite, and machine-checked negation proofs uncovering upstream misformalizations ([`google-deepmind/formal-conjectures#7590`](https://github.com/google-deepmind/formal-conjectures/issues/7590)).
+- **[Defensive Screening Before LLM Triage: Untrusted Emails, Attachments, and CSVs](https://kilianthemagnificent.github.io/notes/untrusted-office-input-defenses.html)** — Screening binary magic-byte mismatches, Unicode `U+202E` filename spoofing, accounting-safe OWASP CSV formula injection, invisible Unicode Tag (`U+E0000..U+E007F`) & CSS-hidden overrides, and session-scoped PII tokenization.
 
 ### Security & verification focus
 
