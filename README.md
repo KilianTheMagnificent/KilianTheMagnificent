@@ -2,16 +2,16 @@
 
 **Software Developer & Co-Founder ([Kestrel](https://meetkestrel.com) — pre-launch)** · St. Louis, MO · [LinkedIn](https://www.linkedin.com/in/andre-romerocarey)
 
-I build deterministic, human-in-the-loop workflow software, defensive input-validation tools, and formal verification proofs—including co-building **Kestrel** ([meetkestrel.com](https://meetkestrel.com) · [security design](https://meetkestrel.com/security)), an early-stage, pre-launch prototype for back-office workflow automation.
+I build high-assurance verifiers, defensive input-validation tools, and deterministic human-in-the-loop workflow software—including co-building **Kestrel** ([meetkestrel.com](https://meetkestrel.com) · [security design](https://meetkestrel.com/security)), an unincorporated, pre-launch prototype for back-office workflow automation.
 
-### Security & engineering focus
+### Security & verification focus
 
-- **Untrusted-input screening:** Validating attachments, file headers, CSV exports, and inbound emails against spoofing, formula injection, and hidden prompt-override payloads in isolated synthetic lab environments.
+- **Adversarial verifier & parser hardening:** Building multi-layer checkers and red-team test suites against soundness bypasses, disguised file headers, spreadsheet formula injection, and hidden prompt-override payloads in isolated synthetic labs.
 - **Deterministic data protection:** Tokenizing personal and account identifiers locally before text crosses external API boundaries, and keeping all arithmetic in deterministic code rather than language models.
-- **Human-gated actions:** Staging outputs strictly as drafts for human review rather than autonomous outbound execution.
+- **Human-gated execution:** Staging outputs strictly as drafts for human review rather than autonomous outbound actions.
 
 ### Public repositories
 
-- **[`inbox-guard`](https://github.com/KilianTheMagnificent/inbox-guard)** — Zero-dependency defensive validation and deterministic PII redaction for untrusted emails, attachments, and CSV exports ([`SECURITY.md`](https://github.com/KilianTheMagnificent/inbox-guard/blob/main/SECURITY.md)).
-- **[`open-proofs`](https://github.com/KilianTheMagnificent/open-proofs)** — Machine-checked Lean 4 formal verification proofs of open statements from `google-deepmind/formal-conjectures`.
-- **[`flowclone-updates`](https://github.com/KilianTheMagnificent/flowclone-updates)** — Official signed macOS release channel for FlowClone, a local-first macOS voice dictation app.
+- **[`open-proofs`](https://github.com/KilianTheMagnificent/open-proofs)** — 5-layer Lean 4 proof verifier with a **48-case adversarial bypass test suite** ([`tests/run_adversarial.py`](https://github.com/KilianTheMagnificent/open-proofs/blob/main/tests/run_adversarial.py)), 131 machine-checked proofs, and **11 upstream misformalization write-ups** ([`outbox/`](https://github.com/KilianTheMagnificent/open-proofs/tree/main/outbox)) on `google-deepmind/formal-conjectures`.
+- **[`inbox-guard`](https://github.com/KilianTheMagnificent/inbox-guard)** — Zero-dependency defensive screening and deterministic PII redaction for untrusted emails, attachments, and CSV exports, verified with automated unit tests and CodeQL scanning ([`SECURITY.md`](https://github.com/KilianTheMagnificent/inbox-guard/blob/main/SECURITY.md)).
+- **[`flowclone-updates`](https://github.com/KilianTheMagnificent/flowclone-updates)** — Official code-signed macOS release channel for FlowClone, a local-first macOS voice dictation app.
