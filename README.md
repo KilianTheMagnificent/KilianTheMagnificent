@@ -8,6 +8,11 @@ I direct Claude Code and Codex to build tools for office data and machine-checke
 
 - [inbox-guard](https://github.com/KilianTheMagnificent/inbox-guard) screens incoming mail, attachments and CSV exports before review. The invoice check above uses its CSV tool.
 - [open-proofs](https://github.com/KilianTheMagnificent/open-proofs) checks AI-written mathematical proofs with Lean. I [reported eight statements](https://github.com/google-deepmind/formal-conjectures/issues/7590) in Google DeepMind’s Formal Conjectures project where the written answer ignored an input that could change the result.
+- [agent-verification-playbook](https://github.com/KilianTheMagnificent/agent-verification-playbook) provides a zero-dependency AI-policy scanner, empirical-proof issue templates, and checklists for verifying AI-assisted open-source contributions.
+- [wcp](https://github.com/KilianTheMagnificent/wcp) coordinates multiple coding agents in one Git repository using isolated worktrees, atomic leases, and hash-bound change bundles.
+- [luck-filter](https://github.com/KilianTheMagnificent/luck-filter) is a zero-dependency Python backtest-overfitting and multiple-testing tool (DSR, PSR, PBO, White’s Reality Check, SPA) with an offline HTML companion.
+- [orrery](https://github.com/KilianTheMagnificent/orrery) is an offline, local-first counterfactual decision instrument ([live demo](https://kilianthemagnificent.github.io/orrery/)) with zero dependencies and zero network calls.
+- [broadsheet-obsidian-theme](https://github.com/KilianTheMagnificent/broadsheet-obsidian-theme) is an editorial newspaper theme for Obsidian in light (Day) and dark (Night Print) modes with offline font stacks.
 
 ## Outside contributions
 
@@ -16,5 +21,6 @@ I direct Claude Code and Codex to build tools for office data and machine-checke
 
 ## Technical notes
 
+- [Verifying AI-Assisted Contributions Without Reading Code](https://kilianthemagnificent.github.io/notes/verifying-ai-contributions-without-reading-code.html) walks through verifying AI-assisted open-source work with independent oracles across three case studies.
 - [Checking Untrusted AI-Authored Lean 4 Proofs](https://kilianthemagnificent.github.io/notes/lean4-verifier-adversarial-suite.html) walks through the checks, what they can establish, and the evidence behind the report.
 - [Screening Untrusted Office Inputs Before LLM Triage](https://kilianthemagnificent.github.io/notes/untrusted-office-input-defenses.html) explains which file, email and spreadsheet patterns the tool flags and what still needs human review.
